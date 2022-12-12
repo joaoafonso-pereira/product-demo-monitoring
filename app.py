@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-from mltools.productml import ProductML
+from productml import ProductML
 
 def relative_difference(real, predicted):
     diff = (predicted - real)/max(predicted, real)
